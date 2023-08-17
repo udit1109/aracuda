@@ -13020,6 +13020,10 @@ button.bg-mercury:focus {
   background-color: #EF243C !important;
 }
 
+.bg-ebony-clay-2 {
+  background-color: #1d292e !important;
+}
+
 a.bg-ebony-clay:hover, a.bg-ebony-clay:focus,
 button.bg-ebony-clay:hover,
 button.bg-ebony-clay:focus {
