@@ -15032,6 +15032,12 @@ button.bg-conch:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+  /* padding-top: 10rem; */
+}
+
+.mb-02{
+  margin-bottom: 0 !important;
+  padding-top: 10rem;
 }
 
 .ml-0,
@@ -32405,6 +32411,11 @@ a.text-black:hover, a.text-black:focus {
 
 .text-black-2 {
   color: #2b3940 !important;
+}
+
+.text-black-bold{
+  color: black;
+  font-weight: bold;
 }
 
 a.text-black-2:hover, a.text-black-2:focus {

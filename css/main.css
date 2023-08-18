@@ -8108,8 +8108,22 @@ a.hover-color-primary {
 }
 
 a.hover-color-primary:hover {
-  color: #EF243C !important;
+  color: black !important;
 }
+
+a.hover-color-fb:hover {
+  color: #1877F2 !important;
+}
+a.hover-color-ln:hover {
+  color: #0A66C2 !important;
+}
+a.hover-color-ins:hover {
+  color: #962fbf !important;
+}
+a.hover-color-twt:hover {
+  color: #00acee !important;
+}
+
 
 .hover-bg-green,
 a.hover-bg-green {
@@ -8145,7 +8159,7 @@ a.hover-text-hitgray:hover {
 }
 
 .list-hover-primary a:hover {
-  color: #EF243C !important;
+  color: black !important;
 }
 
 .tab-menu-items a {
@@ -8245,6 +8259,40 @@ a.hover-text-hitgray:hover {
   position: absolute;
   top: 10em;
   right: 0;
+}
+
+fieldset {
+  overflow: hidden
+}
+
+.some-class {
+  float: left;
+  clear: none;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 0px 1em 0px 8px;
+}
+
+.logo{
+  padding: 10px 10px 10px 10px;
+  left: 0;
+  position: absolute;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
 }
 
 
