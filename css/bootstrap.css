@@ -12797,7 +12797,7 @@ button.bg-denim:focus {
 }
 
 .bg-dodger {
-  background-color: #336ef7 !important;
+  background-color: #EF243C !important;
 }
 
 a.bg-dodger:hover, a.bg-dodger:focus,
@@ -12917,7 +12917,7 @@ button.bg-yellow-2:focus {
 }
 
 .bg-casablanca {
-  background-color: #f8c546 !important;
+  background-color: #EF243C !important;
 }
 
 a.bg-casablanca:hover, a.bg-casablanca:focus,
@@ -12988,6 +12988,11 @@ button.bg-smoke:focus {
 
 .bg-pink {
   background-color: #fc4980 !important;
+}
+
+
+.bg-aracuda {
+  background-color: #EF243C !important;
 }
 
 a.bg-pink:hover, a.bg-pink:focus,
@@ -22782,7 +22787,7 @@ button.bg-conch:focus {
   }
   .pt-md-20,
   .py-md-20 {
-    padding-top: 5.3125rem !important;
+    padding-top: 2rem !important;
   }
   .pr-md-20,
   .px-md-20 {
@@ -24826,7 +24831,7 @@ button.bg-conch:focus {
   }
   .pb-lg-19,
   .py-lg-19 {
-    padding-bottom: 5rem !important;
+    padding-bottom: 3rem !important;
   }
   .pl-lg-19,
   .px-lg-19 {
@@ -25025,9 +25030,12 @@ button.bg-conch:focus {
   .p-lg-30 {
     padding: 9.6875rem !important;
   }
+  .p-lg-ar {
+    padding: 9.6875rem !important;
+  }
   .pt-lg-30,
   .py-lg-30 {
-    padding-top: 9.6875rem !important;
+    padding-top: 6rem !important;
   }
   .pr-lg-30,
   .px-lg-30 {
@@ -25035,7 +25043,7 @@ button.bg-conch:focus {
   }
   .pb-lg-30,
   .py-lg-30 {
-    padding-bottom: 9.6875rem !important;
+    padding-bottom: 6rem !important;
   }
   .pl-lg-30,
   .px-lg-30 {
@@ -32157,6 +32165,10 @@ button.bg-conch:focus {
   color: #fff !important;
 }
 
+.text-aracuda {
+  color: #EF243C !important;
+}
+
 .text-primary {
   color: #EF243C !important;
 }
@@ -32232,7 +32244,9 @@ a.text-white:hover, a.text-white:focus {
 .text-green {
   color: #EF243C !important;
 }
-
+.text-green2 {
+  color: #59981A !important;
+}
 a.text-green:hover, a.text-green:focus {
   color: #006442 !important;
 }

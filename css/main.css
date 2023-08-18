@@ -64,7 +64,7 @@ body[data-theme='light'], .light-bg, .light-mode-texts {
 body {
   --bg:                  #fff;
   --bg-1:                #F2F2F2 ;
-  --bg-2:               #f4f5f8;
+  --bg-2:               #fde7ea;
   --color-headings:      #2b3940;
   --color-texts:        #6b6e6f;
   --color-texts-2:      #7e8989;
@@ -452,13 +452,13 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 
 .column {
   /* float: left; */
-  width: 30%;
+  width: 32%;
   padding: 10px;
   padding-top: 30px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 0 auto; 
   box-sizing: border-box;
-  background-color: #EF243C;
+  background-color: #fde7ea;
   text-align: center;
 }
 
@@ -1291,6 +1291,19 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
   font-size: 13px;
   font-weight: 700;
   height: 40px;
+  min-width: 130px;
+  line-height: 28px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn2 {
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 60px;
   min-width: 130px;
   line-height: 28px;
   padding: 5px;
@@ -8228,6 +8241,14 @@ a.hover-text-hitgray:hover {
   right: 0;
 }
 
+.pos-abs-tri {
+  position: absolute;
+  top: 10em;
+  right: 0;
+}
+
+
+
 .pos-abs-bl {
   position: absolute;
   bottom: 0;
@@ -8339,6 +8360,7 @@ a.hover-text-hitgray:hover {
 /* Theme Size Utilities */
 .min-h-100vh {
   min-height: 100vh;
+  
 }
 
 .max-width-130px {
